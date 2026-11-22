@@ -1,0 +1,94 @@
+# Everything the home page says lives here. Edit this file and push: GitHub Pages rebuilds the site.
+# Numbers are maintained by hand. Check them against their source before changing them.
+
+name: Divyanshu Singh
+url: https://divyanshusingh96.github.io/
+
+seo:
+  title: "Divyanshu Singh: builder, researcher and dataset publisher"
+  description: >-
+    Divyanshu Singh builds open-source software and publishes open datasets, including Machyon, a Python library
+    that downloads images from URL lists and accounts for every row.
+
+hero:
+  roles: [Builder, Researcher, Dataset publisher, Game developer]
+  headline: I build tools that leave nothing unaccounted for.
+  intro: >-
+    Open-source software, research and datasets, made one careful step at a time. From my first lines of code on
+    Sololearn in 2019 to Machyon today.
+  # 創る (tsukuru, to create) beside the hero is drawn as a graphic in index.html
+  motto_ja: ひとつずつ、丁寧に。
+  motto_en: One at a time, with care.
+
+# The statistics strip. "source" is where to check the number before changing it.
+stats:
+  - value: v1.2.3
+    label: Machyon, live on PyPI
+    source: https://pypi.org/project/machyon/
+  - value: "5,740"
+    label: downloads of the Pokémon dataset
+    source: https://www.kaggle.com/datasets/divyanshusingh369/complete-pokemon-library-32k-images-and-csv
+  - value: 28.1K
+    label: views on Kaggle
+    source: https://www.kaggle.com/datasets/divyanshusingh369/complete-pokemon-library-32k-images-and-csv
+  - value: "2019"
+    label: coding since
+
+machyon:
+  kicker: Flagship · open source
+  name: Machyon
+  description: >-
+    A Python library that downloads images from URL lists and accounts for every row: downloaded, already on disk,
+    or failed with a reason. It measures before it adds connections, respects servers that ask it to slow down, and
+    resumes exactly where it stopped.
+  tagline: Every image. Mach speed. Zero lost.
+  commands: ["pip install machyon", "machyon ui"]
+  version: "1.2.3"
+  links:
+    - { label: Documentation, url: "https://divyanshusingh96.github.io/machyon/" }
+    - { label: The 104-second film, url: "https://divyanshusingh96.github.io/machyon/project/film/" }
+    - { label: GitHub, url: "https://github.com/DivyanshuSingh96/machyon" }
+    - { label: PyPI, url: "https://pypi.org/project/machyon/" }
+
+works:
+  - kicker: Research
+    name: AiMi
+    description: A recommendation system that began with anime and is growing to films and TV series.
+  - kicker: In progress
+    name: Remote viewing
+    description: An application inspired by the Stargate research programme, being rebuilt from the ground up.
+    in_progress: true
+
+datasets:
+  intro: I publish and maintain open datasets for computer vision and recommendation work.
+  featured:
+    name: The complete Pokémon library
+    platform: Kaggle
+    url: https://www.kaggle.com/datasets/divyanshusingh369/complete-pokemon-library-32k-images-and-csv
+    description: >-
+      About 32,000 images with CSV and JSON metadata, organised for classification, retrieval and recommendation
+      projects.
+    facts: ["~32,000 images", "CSV + JSON metadata", "28.1K views", "5,740 downloads"]
+  more:
+    - name: AiMi anime dataset sample
+      platform: Hugging Face
+      url: https://huggingface.co/datasets/DivyanshuSingh96/aimi-anime-rag-dataset-sample
+      description: A sample of the anime data behind AiMi, for retrieval-augmented recommendation.
+
+journey:
+  - when: 2019–2021
+    text: Learned to code on Sololearn, in a community that answered questions and encouraged learning.
+  - when: School
+    text: Published an early Python library, stylizers, on PyPI.
+  - when: "2025"
+    text: Graduated from NSUT.
+  - when: "2026"
+    text: Released Machyon 1.0 in November and continued to v1.2.3.
+
+# Only real, verified profile addresses. A profile without one is left out, never shown as a placeholder.
+elsewhere:
+  - { name: GitHub, handle: DivyanshuSingh96, url: "https://github.com/DivyanshuSingh96" }
+  - { name: Kaggle, handle: divyanshusingh369, url: "https://www.kaggle.com/divyanshusingh369" }
+  - { name: Hugging Face, handle: DivyanshuSingh96, url: "https://huggingface.co/DivyanshuSingh96" }
+  - { name: X, handle: DivyanshuBuilds, url: "https://x.com/DivyanshuBuilds" }
+  - { name: Sololearn, handle: Where it started, url: "https://www.sololearn.com/en/profile/9666499" }

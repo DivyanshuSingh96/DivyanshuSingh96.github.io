@@ -1,3 +1,12 @@
-theme: jekyll-theme-cayman
-title: DivyanshuSingh96's Homepage
-description: This is an awesome website for Awesome python Libraries, Python Stuffs, Python Projects, etc.
+# GitHub Pages builds this site with Jekyll, as before. The home page (index.html) reads its content from
+# _data/site.yml; edit that file to change any text, number or link.
+title: Divyanshu Singh
+description: Builder, researcher and dataset publisher. Creator of Machyon.
+url: "https://divyanshusingh96.github.io"
+baseurl: ""
+lang: en
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
